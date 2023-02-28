@@ -1,5 +1,5 @@
 <template>
-<nav class="navbar " role="navigation" aria-label="main navigation">
+<nav class="navbar is-light " role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
         <RouterLink class="navbar-item" to="/">
             <h1 class="title is-1 ">Email Gen</h1>
@@ -26,10 +26,11 @@
             <RouterLink class="navbar-item" to="/vendor">
                 Vendor
             </RouterLink>
+            <RouterLink class="navbar-item" to="/format">
+                Format
+            </RouterLink>
 
-            <a class="navbar-item">
-                Documentation
-            </a>
+          
 
             <!-- <div class="navbar-item has-dropdown is-hoverable">
                 <a class="navbar-link">

@@ -5,6 +5,7 @@ import Calllog from '../components/Calllog.vue';
 import Quot from '../components/Quot.vue';
 import Norespond from '../components/Norespond.vue';
 import Vendor from '../components/Vendor.vue';
+import Format from '../components/Format.vue';
 // import Dum from '../components/Dum.vue';
 
 const router = createRouter({
@@ -34,6 +35,11 @@ const router = createRouter({
       path: '/vendor',
       name: 'vendor',
       component: Vendor
+    },
+    {
+      path: '/format',
+      name: 'Format',
+      component: Format
     },
     // {
     //   path: '/about',
