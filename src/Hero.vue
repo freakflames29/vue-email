@@ -6,6 +6,14 @@
 <router-view/>
 <!-- <Dum/> -->
 
+<footer class="footer is-dark">
+  <div class="content has-text-centered">
+    <p>
+      A stupid email generator created by <strong title="a stupid coder">sourav</strong> to copy paste boring mails
+    </p>
+  </div>
+</footer>
+
 </template>
 
 <script>
