@@ -16,12 +16,12 @@
         <p class="title is-2">Email Body</p>
         <p class="title is-4 colorgreen" v-if="emailbody">EMAIL BODY COPIED</p>
         <textarea name="tc_msg" id="tc_msg_field" class="textarea is-large" readonly="true">Dear {{ username[0]+username.slice(1).toLowerCase().trimEnd()}},
-    As discussed, needful has been done issue is resolved.
-    Hence I am closing the ticket to avoid further aging.
+As discussed, needful has been done issue is resolved.
+Hence I am closing the ticket to avoid further aging.
 
-    We prefer NOT TO REOPEN the ticket.
+We prefer NOT TO REOPEN the ticket.
 
-    If you face any challenge, please reach out to me-2297004/ Reply on this mail chain/ Call me on undersigned number or if I am not available you can email my leads  rakesh.banik@tcs.com/debojit.sadhukhan@tcs.com for urgent help
+If you face any challenge, please reach out to me-2297004/ Reply on this mail chain/ Call me on undersigned number or if I am not available you can email my leads  rakesh.banik@tcs.com/debojit.sadhukhan@tcs.com for urgent help
     </textarea>
         <button class="button is-primary mt-2" @click="copyemailbody('tc_msg_field',)">Copy Body</button>
 

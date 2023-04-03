@@ -31,23 +31,23 @@
         <p class="title is-2">Email Body</p>
         <p class="title is-4 colorgreen" v-if="emailbody">EMAIL BODY COPIED</p>
         <textarea name="tc_msg" id="tc_msg_field" class="textarea is-large" readonly="true">Dear {{ username[0]+username.slice(1).toLowerCase().trimEnd()}},
-    As discussed, call log has been done with {{ vendor }}. The case number is {{ caseid }}. A quotation will be raised and it will be recieved in your mail box within next 48 hours.
-    So once you get the quotation kindly revert that to me in this mail.So that I can take necessary actions agains it.
+As discussed, call log has been done with {{ vendor }}. The case number is {{ caseid }}. A quotation will be raised and it will be recieved in your mail box within next 48 hours.
+So once you get the quotation kindly revert that to me in this mail.So that I can take necessary actions agains it.
 
-    Also if you face any kind of issue kindly let us know that we can allocate a temporary asset at office to avoid any type of production loss.
-    Hence I am closing the ticket to avoid further aging.
+Also if you face any kind of issue kindly let us know that we can allocate a temporary asset at office to avoid any type of production loss.
+Hence I am closing the ticket to avoid further aging.
 
-    We prefer NOT TO REOPEN the ticket.
-    
-    If you face any challenge, please reach out to me-2297004/ Reply on this mail chain/ Call me on undersigned number or if I am not available you can email my leads  rakesh.banik@tcs.com/debojit.sadhukhan@tcs.com for urgent help.
+We prefer NOT TO REOPEN the ticket.
 
-    Note:For temporary asset placement at your desk kindly fill the below mentioned fields and revert me the same.
-    Name:
-    Emp ID:
-    Project:
-    ODC:
-    Building:
-    Seat no:
+If you face any challenge, please reach out to me-2297004/ Reply on this mail chain/ Call me on undersigned number or if I am not available you can email my leads  rakesh.banik@tcs.com/debojit.sadhukhan@tcs.com for urgent help.
+
+Note:For temporary asset placement at your desk kindly fill the below mentioned fields and revert me the same.
+Name:
+Emp ID:
+Project:
+ODC:
+Building:
+Seat no:
 
             </textarea>
         <button class="button is-primary mt-2" @click="copyemailbody('tc_msg_field',)">Copy Body</button>

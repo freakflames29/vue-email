@@ -28,31 +28,32 @@
 
         <hr>
         <p class="title is-2">Email Subject</p>
-        <h1 class="title is-3" id="email_sub" :class={colorgreen:copied,colored:!copied}>Resolving Ticket | Ticket Number:{{
-                    emailsub }}</h1>
+        <h1 class="title is-3" id="email_sub" :class={colorgreen:copied,colored:!copied}>Resolving Ticket | Ticket
+            Number:{{
+                emailsub }}</h1>
         <button class="button is-primary" @click="copyemailsub('email_sub')">Copy sub</button>
         <hr>
         <p class="title is-2">Email Body</p>
         <p class="title is-4 colorgreen" v-if="emailbody">EMAIL BODY COPIED</p>
-        <textarea name="tc_msg" id="tc_msg_field" class="textarea is-large" readonly="true">Dear {{ username[0]+username.slice(1).toLowerCase().trimEnd()}},
-    As discussed, call log has been done with {{ vendor }}. The case number is {{ caseid }}. An engineer will be visiting to replace the faulty parts of the system within  next 3-5 working days.
-    Kindly connect me once the engineer contacts you so that we can take necessary approvals.
-    Also if you face any kind of issue kindly let us know that we can allocate a temporary asset at office to avoid any type of production loss.
-    Hence I am closing the ticket to avoid further aging.
- 
-    We prefer NOT TO REOPEN the ticket.
-    
-    If you face any challenge, please reach out to me-2297004/ Reply on this mail chain/ Call me on undersigned number or if I am not available you can email my leads  rakesh.banik@tcs.com/debojit.sadhukhan@tcs.com for urgent help.
+        <textarea name="tc_msg" id="tc_msg_field" class="textarea is-large" readonly="true">Dear {{ username[0] + username.slice(1).toLowerCase().trimEnd() }},
+As discussed, call log has been done with {{ vendor }}. The case number is {{ caseid }}. An engineer will be visiting to replace the faulty parts of the system within  next 3-5 working days.
+Kindly connect me once the engineer contacts you so that we can take necessary approvals.
+Also if you face any kind of issue kindly let us know that we can allocate a temporary asset at office to avoid any type of production loss.
+Hence I am closing the ticket to avoid further aging.
 
-    Note:For temporary asset placement at your desk kindly fill the below mentioned fields and revert me the same.
-    Name:
-    Emp ID:
-    Project:
-    ODC:
-    Building:
-    Seat no:
+We prefer NOT TO REOPEN the ticket.
 
-        </textarea>
+If you face any challenge, please reach out to me-2297004/ Reply on this mail chain/ Call me on undersigned number or if I am not available you can email my leads  rakesh.banik@tcs.com/debojit.sadhukhan@tcs.com for urgent help.
+
+Note:For temporary asset placement at your desk kindly fill the below mentioned fields and revert me the same.
+Name:
+Emp ID:
+Project:
+ODC:
+Building:
+Seat no:
+
+                </textarea>
         <button class="button is-primary mt-2" @click="copyemailbody('tc_msg_field',)">Copy Body</button>
 
     </div>
