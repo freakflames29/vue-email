@@ -1,15 +1,15 @@
 <template>
-<nav class="navbar is-light " role="navigation" aria-label="main navigation">
+<nav class="navbar is-dark " role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
         <RouterLink class="navbar-item" to="/">
-            <h1 class="title is-1 ">Email Gen</h1>
+            <h1 class="title is-1 bold_font">Em<span class="emat"><i class="fa-duotone fa-at"></i></span>il Generator</h1>
         </RouterLink>
-
+<!-- 
         <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
-        </a>
+        </a> -->
     </div>
 
     <div id="navbarBasicExample" class="navbar-menu">
@@ -64,3 +64,15 @@ export default {
     name: 'Nav'
 }
 </script>
+
+<style >
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+    .emat{
+        color: #00d1b2;
+    }
+    .bold_font
+    {
+        font-family: 'Bebas Neue', cursive;
+        color: white;
+    }
+</style>
